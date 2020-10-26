@@ -1,0 +1,78 @@
+body{
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  height: 90vh;
+}
+.container{
+  display: block;
+  
+}
+.App {
+  text-align: center;
+  color: black;
+}
+
+
+.app__header {
+position: fixed;
+width: 90%;
+height: 30%;
+top: 0;
+z-index: 1;
+padding: 10px 20px 0px;
+}
+
+.app__logo {
+  float: left;
+  transform: scale(1.8);
+  margin-top: 20px;
+}
+
+.app__title {
+  display: inline-block;
+  font-family: 'Caveat', cursive;
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+
+}
+
+.app__userInfo {
+  float: right;
+}
+
+.app__form {
+  padding: 20px;
+  z-index: 1;
+  width: 93%;
+  margin: 20px;
+  bottom: 0;
+  position: fixed;
+  
+}
+
+.app__formControl {
+  display: flex !important;
+  flex-direction: row !important;;
+}
+
+.app__iconButton {
+  flex: 0 !important;
+}
+
+.app__input {
+  flex: 1 !important;
+}
+
+.app__flipMove {
+  margin: 25vh 0 20vh;
+}
+
+@media screen and (min-width: 768px) {
+  .app__header {
+    width: 98%;
+  }
+
+  .app__flipMove {
+    margin: 12vh 0 15vh;
+  }
+}
